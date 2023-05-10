@@ -16,4 +16,33 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+/**** Switch Case ****/
 
+let firstName;
+
+firstName = "Sie";
+
+var age = prompt(" geben Sie Ihr Alter ein! "); 
+if(age <= 5) 
+{
+    console.log(firstName + " trinken Milch. ");
+}
+
+else if(age >= 6 , age <= 12 ) 
+{
+    console.log(firstName + " trinken Saft. ");
+}
+
+else if(age >=13 , age <= 17 )
+{
+    console.log(firstName + " trinken Cola. ");
+}
+
+else if(age >= 18 , age <=100 )
+{
+    console.log(firstName + " trinken Wein ");
+}    
+else if( age > 100 )
+{
+    console.log(firstName + " trinken Milch ");
+}
