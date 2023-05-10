@@ -22,7 +22,9 @@ let firstName;
 
 firstName = "Sie";
 
-var age = prompt(" geben Sie Ihr Alter ein! "); 
+const firstname = prompt("Bitte Namen eingeben");
+var age = parseInt(" geben Sie Ihr Alter ein! "); 
+
 if(age <= 5) 
 {
     console.log(firstName + " trinken Milch. ");
