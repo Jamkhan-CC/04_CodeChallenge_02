@@ -18,12 +18,9 @@ Alter 13-17 // Cola
 
 /**** Switch Case ****/
 
-let firstName;
 
-firstName = "Sie";
-
-const firstname = prompt("Bitte Namen eingeben");
-var age = parseInt(" geben Sie Ihr Alter ein! "); 
+const firstName = prompt("Bitte Namen eingeben");
+const age = parseInt(prompt(" geben Sie Ihr Alter ein! ")); 
 
 if(age <= 5) 
 {
